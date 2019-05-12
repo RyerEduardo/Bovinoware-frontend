@@ -56,7 +56,7 @@ export default class Home extends Component {
         <TouchableOpacity
           style={styles.productButton}
           onPress={() => {
-            this.props.navigation.navigate('Detales', {item});
+            this.props.navigation.navigate('Detales', {param: item});
            // this.props.navigation.navigate("Detales", { param: this.state });
             //this.props.navigation.navigate("detales", {bovino: this.state});
             //this.props.navigation.navigate('tela2', {resultado: this.state.resutadoSoma})
